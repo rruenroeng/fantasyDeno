@@ -22,22 +22,14 @@ The code is in the [app](/app/) directory. See the README there for setup direct
 ## TODO
 
 * Day 1
-  * [ ] Get a new fresh project started
-  * [ ] Setup the database
-    * [ ] Docker/Postgres
-  * [ ] Create a users table
+  * [X] Get a new fresh project started
+  * [X] Setup the database
+    * [X] Docker/Postgres
+  * [X] Create a users table
   * [ ] Generate a route that returns data from the DB
-  * [ ] Get a lot of the configuration centralized
+  * [X] Get a lot of the configuration centralized
 
-
-
-  * [ ] Upgrade Deno
-  * [x] Generate Fresh Project
-  * [x] Familiarize myself with Fresh
-  * [x] Linter?
-  * [x] Setup the database
-    * [x] Docker Postgres
-  * [x] Create a users table
+----- CJ's Todos
   * [x] At least 1 route that returns data from DB
 * Day 2
   * [x] Update the README
