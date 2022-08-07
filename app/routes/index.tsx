@@ -1,21 +1,16 @@
-/** @jsx h */
-import { h } from "preact";
-import { tw } from "@twind";
-import Counter from "../islands/Counter.tsx";
+import { Handlers } from "$fresh/server.ts";
 
-export default function Home() {
-  return (
-    <div class={tw`p-4 mx-auto max-w-screen-md`}>
-      <img
-        src="/logo.svg"
-        height="100px"
-        alt="the fresh logo: a sliced lemon dripping with juice"
-      />
-      <p class={tw`my-6`}>
-        Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-        file, and refresh.
-      </p>
-      <Counter start={3} />
-    </div>
-  );
-}
+import config from "@/utils/config.ts";
+// import oauth from "@/utils/oauth.ts";
+
+// export const handler: Handlers = {
+//   GET(_, ctx) {
+//     const provider = oauth.get(ctx.params.provider.toLowerCase());
+//     if (provider) {
+//       const location = provider.code.createLink();
+//       return Response.redirect(location);
+//     }
+//     // TODO: show error message instead of instant redirect
+//     return Response.redirect(config.base_url);
+//   },
+// };
